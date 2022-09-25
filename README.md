@@ -21,13 +21,13 @@ wondering when the albums were produced, worry no more because I gatchu!
 To get this project up and running locally, you must already have python plus the necessary packages installed on your computer
 
 **simple steps to set up on your local machine**
-```
-- git clone https://github.com/symonkipkemei/album-search-spotify.git
-- set up virtual environment (https://album-search-spotify.netlify.app/)
-- pip install requirements.txt
-- set up virtual environment variables (https://album-search-spotify.netlify.app/)
-- Run `python main.py`
-```
+
+- ```git clone https://github.com/symonkipkemei/album-search-spotify.git```
+- [Set up virtual environment](https://github.com/symonkipkemei/album_search_spotify/wiki/Set-up-virtual-environment/_edit)
+-  On the terimnal, within the cloned repository, run ```pip install requirements.txt```
+- [Get OAuth Token from spotify API](https://github.com/symonkipkemei/album_search_spotify/wiki/Get-OAuth-Token-from-spotify-API)
+- [Set up OAuth Token as a virtual environment variable](https://github.com/symonkipkemei/album_search_spotify/wiki/Set-up-OAuth-Token-as-a-virtual-environment-variable)
+- On the terminal, within the cloned repository, run  ```python main.py```
 
 
 ## 🧠 Project Information
@@ -36,8 +36,11 @@ To get this project up and running locally, you must already have python plus th
 - In development
 
 **Features**
-- Allow the user to input the name of the artist , then in return provide all the albums
+- Allow the user to input the name of the artist , then in return,search and list all the albums .
+- Download all sets of the similar songs 
 
+**Completed**
+- Retrieve the album list from artist's id
 
 ## 🤝 Contributing
 
