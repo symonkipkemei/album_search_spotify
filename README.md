@@ -24,7 +24,8 @@ To get this project up and running locally, you must already have python plus th
 
 - ```git clone https://github.com/symonkipkemei/album-search-spotify.git```
 - [Set up virtual environment](https://github.com/symonkipkemei/album_search_spotify/wiki/Set-up-virtual-environment/_edit)
--  On the terimnal, within the cloned repository, run ```pip install requirements.txt```
+- On the terminal, activate the virtual environment ``` source venv/bin/activate ```
+- On the terimnal, within the cloned repository, run ```pip install requirements.txt```
 - [Get OAuth Token from spotify API](https://github.com/symonkipkemei/album_search_spotify/wiki/Get-OAuth-Token-from-spotify-API)
 - [Set up OAuth Token as a virtual environment variable](https://github.com/symonkipkemei/album_search_spotify/wiki/Set-up-OAuth-Token-as-a-virtual-environment-variable)
 - On the terminal, within the cloned repository, run  ```python main.py```
